@@ -16,9 +16,9 @@ public class ClientController : ControllerBase
         _clientService = clientService;
     }
 
-    [HttpGet("/subscriptions")]
-    public ActionResult<ClientSubscriptionsDto> FetchClientsWithSubscriptions()
+    [HttpGet("/subscriptions/{clientId}")]
+    public ActionResult<ClientSubscriptionsDto> FetchClientsWithSubscriptions(int clientId)
     {
-        return Ok(_clientService.FetchClientSubscriptions());
+        return Ok(_clientService.FetchClientSubscriptions(clientId));
     }
 }

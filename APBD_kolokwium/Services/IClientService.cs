@@ -5,5 +5,5 @@ namespace APBD_kolokwium.Services;
 
 public interface IClientService
 {
-    public ClientSubscriptionsDto FetchClientSubscriptions();
+    public ClientSubscriptionsDto FetchClientSubscriptions(int clientId);
 }
