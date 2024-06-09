@@ -16,8 +16,17 @@ public class ClientService : IClientService
 
     public ClientSubscriptionsDto FetchClientSubscriptions(int clientId)
     {
+        // var client = _clientRepository.GetClient(clientId);
         var payment = _paymentRepository.getPayment(clientId);
 
-        throw new NotImplementedException();
+        return new ClientSubscriptionsDto
+        {
+            FirstName = payment.Client.FirstName,
+            LastName = payment.Client.LastName,
+            Email = payment.Client.Email,
+            Phone = payment.Client.Phone,
+            Discount = 0,
+            Subscriptions = null
+        };
     }
 }

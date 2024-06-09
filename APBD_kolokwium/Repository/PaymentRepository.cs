@@ -1,5 +1,6 @@
 using APBD_kolokwium.Context;
 using APBD_kolokwium.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace APBD_kolokwium.Repository;
 
@@ -14,6 +15,9 @@ public class PaymentRepository : IPaymentRepository
 
     public Payment getPayment(int clientId)
     {
-        return _mainDbContext.Payments.Find(clientId);
+        return _mainDbContext.Payments
+            .Include(p => p.Subscription)
+            .Include(p => p.Client)
+            .First(p => p.Client.IdClient == clientId);
     }
 }

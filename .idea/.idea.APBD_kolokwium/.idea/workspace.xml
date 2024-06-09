@@ -10,17 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a55cd89-8c19-4c3b-b342-b020a923862d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/APBD_kolokwium/Repository/ClientRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBD_kolokwium/Repository/IClientRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBD_kolokwium/Repository/IPaymentRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APBD_kolokwium/Repository/PaymentRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APBD_kolokwium/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APBD_kolokwium/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD_kolokwium/Controllers/ClientController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD_kolokwium/Controllers/ClientController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APBD_kolokwium/Dto/ClientSubscriptionsDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD_kolokwium/Dto/ClientSubscriptionsDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APBD_kolokwium/Dto/SubscriptionDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD_kolokwium/Dto/SubscriptionDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD_kolokwium/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD_kolokwium/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APBD_kolokwium/Repository/PaymentRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD_kolokwium/Repository/PaymentRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APBD_kolokwium/Services/ClientService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD_kolokwium/Services/ClientService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APBD_kolokwium/Services/IClientService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APBD_kolokwium/Services/IClientService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +39,11 @@
     "accountId": "b7d0a815-43ce-4bef-8156-a54082481eda"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/3b8b000a0e115700b18265d8ec8c6307056dc94d/src/libraries/System.Diagnostics.DiagnosticSource/src/System/Diagnostics/DiagnosticListener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/3b8b000a0e115700b18265d8ec8c6307056dc94d/src/libraries/System.Linq/src/System/Linq/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d3a451850004403293b134b9fe18ce3fc8f920/3a/c5923730/NotImplementedException.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -128,7 +127,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717953147001</updated>
-      <workItem from="1717953148414" duration="3358000" />
+      <workItem from="1717953148414" duration="5421000" />
     </task>
     <servers />
   </component>

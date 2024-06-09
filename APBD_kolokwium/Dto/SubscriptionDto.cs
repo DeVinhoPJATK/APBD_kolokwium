@@ -10,11 +10,11 @@ public class SubscriptionDto
 
     public decimal TotalPaidAmount { get; set; }
 
-    public SubscriptionDto(int idSubscription, string name, int renewalPeriod, decimal totalPaidAmount)
+    public SubscriptionDto(int idSubscription, string name, int renewalPeriod, decimal SubscriptionPrice)
     {
         IdSubscription = idSubscription;
         Name = name;
         RenewalPeriod = renewalPeriod;
-        TotalPaidAmount = totalPaidAmount;
+        TotalPaidAmount = RenewalPeriod * SubscriptionPrice;
     }
 }

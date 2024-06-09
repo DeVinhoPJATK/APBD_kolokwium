@@ -15,13 +15,5 @@ public class ClientSubscriptionsDto
 
     public ICollection<SubscriptionDto> Subscriptions { get; set; }
 
-    public ClientSubscriptionsDto(string firstName, string lastName, string email, string phone, int discount, ICollection<SubscriptionDto> subscriptions)
-    {
-        FirstName = firstName;
-        LastName = lastName;
-        Email = email;
-        Phone = phone;
-        Discount = discount;
-        Subscriptions = subscriptions;
-    }
+
 }
